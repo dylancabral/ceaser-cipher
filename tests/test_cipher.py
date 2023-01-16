@@ -1,4 +1,5 @@
-from caesar_cipher.cipher import encrypt, decrypt, crack
+import pytest 
+from caeser_cipher.cipher import encrypt, decrypt, crack
 
 
 def test_encrypt_shift_1():
